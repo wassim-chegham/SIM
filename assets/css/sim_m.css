@@ -1,0 +1,115 @@
+blink {
+color:red;
+font-weight:bold;
+}
+#im-container {
+background:none repeat scroll 0 0 #EEEEEE;
+border:1px solid #AAAAAA;
+top:-1px;
+height:100px;
+margin:0;
+position:fixed;
+right:0px;
+width:100%;
+z-index:1;
+}
+#im-toggle, #im-toggle-full {
+display:none;
+}
+#im-list {
+background:none repeat scroll 0 0 #EEEEEE;
+top:40px;
+position:relative;
+right:0px;
+width:100%;
+height:100%;
+}
+#im-list-title {
+color:#121212;
+font-weight:bolder;
+margin:10px;
+padding:2px;
+text-align:center;
+font-size:3em;
+background:transparent url('../icons/arrow_refresh_small.png') no-repeat center right; 
+}
+#im-list-messages {
+background:none repeat scroll 0 0 white;
+border:1px solid #AAAAAA;
+left:8px;
+position:relative;
+top:1px;
+width:98%;
+font-size:2em;
+}
+.im-list-messages-item {
+border-bottom:1px solid #eee;
+padding:4px;
+font-size:0.8em;
+}
+.im-time, .im-name {
+padding-right:4px;
+font-weight:bold;
+}
+.im-time {
+color:73880A;
+}
+.im-name {
+color:#356AA0;
+}
+#im-input {
+border:1px solid #aaa;
+top:1px;
+height:100px;
+margin:1px 0;
+padding:2px;
+position:relative;
+left:8px;
+width:98%;
+text-shadow:0 1px 2px #aaa;
+font-size:2em;
+}
+#im-input:focus {
+border:0 none;
+-moz-box-shadow:0 0 8px blue;
+-webkit-box-shadow:0 0 8px blue;
+}
+#im-loader {
+height:24px;
+margin:0;
+padding:0;
+position:absolute;
+right:2px;
+top:4px;
+width:24px;
+}
+.loader {
+background-image:url('../icons/loader2.gif') !important;
+background-repeat:no-repeat;
+background-position:center right;
+}
+.error {
+background:#FBE6F2 url('../icons/server_error.png') no-repeat center right;
+border-color:#D893A1;
+}
+.im-open {
+background:transparent url('../icons/resultset_previous.png') no-repeat center center;
+}
+.im-close {
+background:transparent url('../icons/resultset_next.png') no-repeat center center;
+}
+.im-expand {
+background:transparent url('../icons/application_side_expand.png') no-repeat center center !important;
+}
+.im-contract {
+background:transparent url('../icons/application_side_contract.png') no-repeat center center !important;
+}
+.new-post {
+background:transparent url('../icons/new.png') no-repeat center right;
+}
+.hint {
+color:#AAAAAA;
+font-size:0.8em;
+font-style:italic;
+text-shadow:none;
+}
